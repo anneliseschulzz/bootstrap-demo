@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>Bootstrap Sandbox</title>
+</head>
+<body>
+    <header>
+        <h1 class="display-3 text-center my-4">Sizing & Borders</h1>
+        <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="dropdown">
+              <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                  1: Utilities
+              </button>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="1_1_basic_typography.html">1.1 Basic Typography</a>
+                  <a class="dropdown-item" href="1_2_text_alignment_display.html">1.2 Text Alignment & Display</a>
+                  <a class="dropdown-item" href="1_3_floats_position.html">1.3 Floats & Position</a>
+                  <a class="dropdown-item" href="1_4_colors_background.html">1.4: Colors & Background</a>
+                  <a class="dropdown-item" href="1_5_spacing.html">1.5 Spacing</a>
+                  <a class="dropdown-item" href="1_6_sizing.html">1.6 Sizing</a>
+                  <a class="dropdown-item" href="1_7_breakpoints.html">1.7 Breakpoints</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+              <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                  2: CSS Components
+              </button>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="2_1_buttons.html">2.1 Buttons</a>
+                  <a class="dropdown-item" href="2_2_navbar.html">2.2 Navbar</a>
+                  <a class="dropdown-item" href="2_3_list_groups_badges.html">2.3 List Groups & Badges</a>
+                  <a class="dropdown-item" href="2_4_forms.html">2.4 Forms</a>
+                  <a class="dropdown-item" href="2_5_input_groups.html">2.5 Input Groups</a>
+                  <a class="dropdown-item" href="2_6_alerts_progress.html">2.6 Alerts & Progress</a>
+                  <a class="dropdown-item" href="2_7_tables_pagination.html">2.7 Tables & Pagination</a>
+                  <a class="dropdown-item" href="2_8_cards.html">2.8 Cards</a>
+                  <a class="dropdown-item" href="2_9_media_object.html">2.9 Media Objects</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+              <button class="btn btn-warning btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                  3: Grid & Flexbox
+              </button>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="3_1_grid_system.html">3.1 Grid System</a>
+                  <a class="dropdown-item" href="3_2_grid_alignment.html">3.2 Grid Alignment</a>
+                  <a class="dropdown-item" href="3_3_flexbox.html">3.3 Flexbox</a>
+                  <a class="dropdown-item" href="3_4_auto_margins_wrapping_order.html">3.4 Auto Margins & Wrap</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="dropdown">
+              <button class="btn btn-danger btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                  4: JavaScript Widgets
+              </button>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="4_1_carousel.html">4.1 Carousel</a>
+                  <a class="dropdown-item" href="4_2_collapse.html">4.2 Collapse</a>
+                  <a class="dropdown-item" href="4_3_tooltips.html">4.3 Tooltips</a>
+                  <a class="dropdown-item" href="4_4_popovers.html">4.4 Popovers</a>
+                  <a class="dropdown-item" href="4_5_modals.html">4.5 Modals</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <hr>
+      </header>
+
+      <div class="container">
+        <!--##################START HERE####################-->
+
+        <!-- WIDTH CLASSES -->
+        <div class="bg-success p-3 w-25">Width 25%</div>
+        <div class="bg-success p-3 w-50">Width 50%</div>
+        <div class="bg-success p-3 w-75">Width 75%</div>
+        <div class="bg-success p-3 w-100">Width 100%</div>
+
+        <br><br>
+
+        <!-- HEIGHT CLASSES -->
+        <div style="height:300px;border:1px solid #333;">
+            <div class="bg-primary d-inline-block h-25">Height 25%</div>
+            <div class="bg-primary d-inline-block h-50">Height 50%</div>
+            <div class="bg-primary d-inline-block h-75">Height 75%</div>
+            <div class="bg-primary d-inline-block h-100">Height 100%</div>
+        </div>
+
+        <br><br>
+
+        <!-- BORDERS -->
+        <div class="p-3 mb-2 bg-light border">Regular</div>
+        <div class="p-3 mb-2 bg-light border border-primary rounded">Primary</div>
+        <div class="p-3 mb-2 bg-light border border-secondary rounded-top">Secondary</div>
+        <div class="p-3 mb-2 bg-light border border-success border-bottom-0">Success</div>
+        <div class="p-3 mb-2 bg-light border border-info">Info</div>
+        <div class="p-3 mb-2 bg-light border border-warning">Warning</div>
+        <div class="p-3 mb-2 bg-light border border-danger">Danger</div>
+        <div class="p-3 mb-2 bg-light border border-light">Light</div>
+        <div class="p-3 mb-2 bg-light border border-dark">Dark</div>
+        <div class="p-3 mb-2 bg-light border border-white">White</div>
+
+    </div><!-- ./container -->
+    <div style="margin-top:500px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
